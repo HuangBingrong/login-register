@@ -1,0 +1,28 @@
+{
+  "name": "express_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-isntall": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "start": "node server.js",
+    "serve": "nodemon server.js",
+    "dev": "concurrently \"npm run serve\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "little yellow",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parse": "^0.1.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
