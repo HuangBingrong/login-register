@@ -14,7 +14,7 @@
   "author": "little yellow",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "body-parse": "^0.1.0",
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
